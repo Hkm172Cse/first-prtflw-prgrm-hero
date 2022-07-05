@@ -1,0 +1,189 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.div-title{
+    font-size:60px;
+    padding:10px;
+    color:#000;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+.div-paragrahp{
+    font-size:25px;
+    color:#666;
+    text-align: center;
+    padding:10px;
+    width: 100%;
+    margin:auto;
+}
+h2{
+
+}
+/*========= TOP-SECTION=========*/
+.top-section{
+    height: 100vh;
+    background: #abcccc;
+    position: relative;
+    background-image:url("../image/top-banner.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-section p{
+    font-size:18px;
+    color:#fff;
+    padding:10px;
+    text-align: center;
+}
+.top-btn{
+    padding: 10px 25px;
+    background: linear-gradient(rgba(216, 10, 182, 0.959), rgb(233, 10, 39));
+    color:#fff;
+    border-radius: 5px;
+    border:none;
+}
+.top-container{ 
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.top-section h1{
+    font-size:70px;
+    color:#fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+/* ==============DONATE-SECTION=======*/
+.donate-section{
+    height: 100vh;
+    background:rgba(232, 236, 168, 0.959);
+    position: relative;
+}
+.donate-section .container{
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.donate-card{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.donate-card .item{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background:#abcccc;
+    position: relative;
+}
+.donate-card .item:hover{
+    border:2px solid red;
+    width: 156px;
+    height: 156px;
+}
+.donate-card .item:hover .donate-value{
+    color:red;
+}
+.donate-card .item .donate-value{
+    width: 100%;
+    margin:auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:30px;
+    font-weight: 600;
+}
+.donate-amount{
+    margin-top:20px;
+    border:none;
+    border-bottom: 1px solid #9999;
+    width: 100%;
+    padding:20px 0px;
+    background:rgba(232, 236, 168, 0.959);
+    text-align: center;
+    font-size:25px;
+    color:#666;
+}
+::placeholder {
+    color: #666;
+    text-align: center;
+    font-size:25px;
+  }
+  .donate-submit{
+    background:rgba(255, 0, 0, 0.719);
+    border:none;
+    color:#fff;
+    font-size:20px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    padding:20px 50px;
+    margin-top:20px;
+  }
+
+  /*=============DONATE PLANE SYTLE============*/
+  .donate-plan-section{
+    position: relative;
+    height: 100vh;
+  }
+  .donate-plan-section .container{
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .donate-plan-card{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.donate-plan-card .item{
+    width: 30%;
+    height: 300px;
+    border-radius: 3px;
+    background:#abcccc;
+    position: relative;
+    text-align: left;
+}
+.plan-icon{
+    width:50px;
+    height: 50px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.donate-plan-card .item h2{
+    margin-left:20px;
+    font-size:20px;
+}
+.donate-plan-card .item p{
+    font-size:14px;
+    margin-left:20px;
+    color:#555;
+}
+.donate-plan-card .item1{
+    background: rgba(255, 166, 0, 0.377);
+}
+.donate-plan-card .item2{
+    background: rgba(187, 140, 148, 0.445);
+}
