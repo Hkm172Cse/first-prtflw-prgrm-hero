@@ -5,6 +5,9 @@ body{
     margin:0px;
     padding:0px;
 }
+input:focus{
+    outline: none;
+}
 .div-title{
     font-size:60px;
     padding:10px;
@@ -14,7 +17,7 @@ body{
     text-align: center;
 }
 .div-paragrahp{
-    font-size:25px;
+    font-size:18px;
     color:#666;
     text-align: center;
     padding:10px;
@@ -29,7 +32,7 @@ h2{
     height: 100vh;
     background: #abcccc;
     position: relative;
-    background-image:url("../image/top-banner.jpg") ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(2, 46, 2, 0.90)), url("../image/top-banner2.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -59,11 +62,11 @@ h2{
 
 }
 .top-section h1{
-    font-size:70px;
+    font-size:40px;
     color:#fff;
     text-align: center;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* ==============DONATE-SECTION=======*/
@@ -82,6 +85,7 @@ h2{
     text-align: center;
 }
 .donate-card{
+    padding-top:30px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -138,6 +142,10 @@ h2{
     padding:20px 50px;
     margin-top:20px;
   }
+  .donate-submit:hover{
+    background: rgb(240, 64, 64);
+    box-shadow: inset 1px 2px 1px rgba(0, 0, 0, 0.349);
+  }
 
   /*=============DONATE PLANE SYTLE============*/
   .donate-plan-section{
@@ -191,7 +199,8 @@ h2{
 /*=========Effected section ==========*/
 .people-section{
     width: 100%;
-    height: 100vh;
+    padding-top:50px;
+    padding-bottom: 100px;
 }
 .people-section .container{
     display: flex;
@@ -214,4 +223,102 @@ h2{
 .donation-depend img{
     width:100%;
     height: 100%;
+}
+.donation-description h2{
+    text-transform: capitalize;
+    font-size:30px;
+}
+
+/*========== GET UPDATE STYLE HERE================*/
+
+.get-update{
+    width: 100%;
+    height:80vh;
+    background:rgba(214, 200, 174, 0.137);
+    position: relative;
+    text-align: center;
+}
+.get-update h1{
+    width: 60%;
+    margin:auto;
+    text-transform: capitalize;
+    padding-top:60px;
+    font-size:50px;
+    font-weight: 600;
+    text-align: center;
+}
+.get-update p{
+    width: 60%;
+    margin:auto;
+    font-size:20px;
+    color:#666;
+
+}
+.get-update .form{
+    background:rgba(255, 192, 203, 0.568);
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top:40px;
+    position:relative;
+}
+.form-content{
+    position:absolute;
+    width:50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.form-content input{
+    width:100%;
+    padding:15px 10px;
+    text-align: left;
+    border:none;
+    background: #abcccc;
+}
+.form-content ::placeholder{
+    color:#555;
+    font-size:14px;
+    text-align: left;
+}
+.form-content .subscribe-btn{
+    padding:14px 70px;
+    margin-left:0px;
+    position:absolute;
+    top:0px;
+    right:-24px;
+    color:#fff;
+    background:rgba(255, 0, 0, 0.719);
+    border: none;
+    font-size:15px;
+    font-weight: 600;
+}
+.subscribe-btn:hover{
+    box-shadow: inset 3px 0px 3px 1px rgba(82, 69, 69, 0.582);
+    background: rgba(255, 0, 0, 0.919);
+}
+
+footer{
+    height: 20vh;
+    width: 100%;
+    background:#000;
+    position:absolute;
+}
+.footer-content{
+position:absolute;
+width: 25%;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.footer-content h2{
+    color:rgba(230, 81, 35, 0.555);
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.footer-content p{
+    color:#fff;
+    font-size:14px;
 }
